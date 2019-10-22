@@ -67,7 +67,13 @@
       tr:nth-child(even) {
         background-color: #dddddd;
       }
-
+      h3{
+        margin:2px;
+      }
+      .sel_options{
+        margin-top: 6px;
+        margin-bottom: 6px;
+      }
   </style>
   <script>
 
@@ -2333,7 +2339,7 @@
         <input type="file" id="file-input" position= "relative"/>
       </div>
       <div>
-        <input type="button" class="edit-button" value="Display Lost Person Info" id="lpinfo">
+
         <input type="button" class="edit-button" value="Load LPM Data" id="loadlpmcsv">
       </div>
 
@@ -2399,12 +2405,6 @@
         </table>
         <input type="button"  class="edit-button" id="btntaskassignment" value="Assign"></input>
       </div>
-
-      <div>
-        <input type="button"  class="edit-button" id="btndisplaytarget" value="Show Target"></input>
-      </div>
-
-
     </div>
 
     <hr>
@@ -2415,7 +2415,10 @@
     </div>
     <div><input type="button" class="edit-button" value="Clear All" id="clearall"></input></div>
     <div><label id="elevation">Elevation</label></div>
-
+    <div>
+      <input type="button" class="edit-button" value="Display Lost Person Info" id="lpinfo">
+      <input type="button"  class="edit-button" id="btndisplaytarget" value="Show Target"></input>
+    </div>
   </div>
 
   <div id="viewDiv">
